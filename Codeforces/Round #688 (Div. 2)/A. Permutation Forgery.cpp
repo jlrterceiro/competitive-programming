@@ -17,12 +17,28 @@
 #include <iomanip>
 #include <bitset>
 
-
 #define INF 1000000000
 
 using namespace std;
 
+#define MAXN 110
+
+int p[MAXN];
+int n;
+
 int main() {
-    printf("oi");
+    int t;
+    scanf("%d", &t);
+    while (t--) {
+        scanf("%d", &n);
+        int i;
+        for (i=1; i<=n; i++) {
+            scanf("%d", &p[i]);
+        }
+        for (i=n; i>=1; i--) {
+            printf("%d ", p[i]);
+        }
+        printf("\n");
+    }
     return 0;
 }
