@@ -46,6 +46,8 @@ int main() {
                 a[i+1]+=a[i];
                 a[i]=0;
             }
+
+            
         }
         printf("%lld\n", ans);
     }
