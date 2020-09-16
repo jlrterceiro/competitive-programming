@@ -35,6 +35,7 @@ int main() {
         for (i=1; i<=n; i++) {
             scanf("%d", &p[i]);
         }
+        printf("** ");
         for (i=n; i>=1; i--) {
             printf("%d ", p[i]);
         }
