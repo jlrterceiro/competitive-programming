@@ -13,7 +13,6 @@ while t>0:
 
     for i in range(2) :
             tokens = [ int(tok) for tok in input().split() ]
-            k = tokens[0]
             k, y = tokens[0], tokens[1:]
             ans = max(ans, ((y[k-1]-y[0])*w))
    
