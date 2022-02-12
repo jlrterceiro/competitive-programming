@@ -1,7 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-
 #define INF 1000000000
 #define MAXN 200010
 #define MAXTREE 1000010
@@ -112,3 +111,4 @@ int main() {
     }
     return 0;
 }
+
