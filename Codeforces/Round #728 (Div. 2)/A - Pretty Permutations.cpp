@@ -17,7 +17,7 @@ int main() {
         }
         else {
             printf("3 1 2 ");
-            for (i=3; i<=n; i+=2) {
+            for (i=4; i<=n; i+=2) {
                 printf("%d %d ", i+1, i);
             }
         }
@@ -25,4 +25,3 @@ int main() {
     }
     return 0;
 }
-
